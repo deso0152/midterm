@@ -1,0 +1,211 @@
+style.css
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* MY STYLE */
+
+body {
+    background-color:#aad4cf;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+header, main, footer {
+    width: 1024px;
+    background-color:#d4e9e7;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main, footer{
+    width: 1004px;
+    padding: 10px;
+    border: none;
+}
+/* header style*/
+h1{ 
+    font-size: 64px;
+    color:white;
+    position: absolute;
+    top:200px; 
+    width:100%;
+    text-align: center;
+}
+
+.container{
+    position:relative;
+    margin:0 auto;
+}
+
+
+nav ul li{ 
+    display: inline;
+    margin-top: 344px;
+    width:100%;
+    padding-top: 6px;     
+    padding-bottom: 6px;
+    font-size: 26px;
+    border-right: 1px solid black;
+}
+
+nav ul li a {
+    position: relative;
+    display: inline-block;
+    width:336px;
+    margin: 0; 
+    padding-top: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+}
+
+a:hover{
+    color:rgb(0, 112, 122);
+}
+
+nav ul li:last-child{
+    border-right:none;
+}
+
+h2{
+    font-size: 35px;
+    margin-top: 34px;
+}
+
+main article img{
+    width: 250px;
+    float: left;
+    margin: 18px 20px 12px 0; 
+}
+
+main article p{
+    line-height: 140%;
+    margin: 18px 0 36px; 
+}
+
+h3{
+    font-size: 29px; 
+    margin: 24px 0 15px; 
+}
+
+main article ul li {
+    list-style-type: disc;
+    list-style-position: inside;
+    line-height: 100%;
+    margin-left: 2px;
+}
+
+h4{
+    font-size: 29px; 
+    margin: 28px 0 14px; 
+}
+
+form label{
+    font-size: 18px;
+}
+
+h5{
+    font-size: 22px;
+    margin-bottom: 29px;
+}
+
+.border{
+    border: 1px solid black;
+    padding: 35px 16px 16px;
+}
+
+#fullname{
+    width: 100%;
+    padding: 6px 20px;
+    margin: 10px 0 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+#email{
+    width: 100%;
+    padding: 6px 20px;
+    margin: 10px 0 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+#message{
+    width: 100%;
+    height: 100px;
+    padding: 12px 20px;
+    margin: 9px 0 20px;
+    box-sizing: border-box;
+    resize: none;
+}
+
+.button{
+    background-color: inherit;
+    text-transform: uppercase;
+    border: 1px solid black;
+    padding: 12px 11px;
+    margin-top: 17px;
+    font-size: 11px;
+    text-align: center;
+}
+
+footer{
+    text-align: right;
+	padding-bottom: 37px;
+    padding-top: 26px;
+}
+
+ footer p{
+    padding-right: 30px;
+ }
